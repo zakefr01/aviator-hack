@@ -106,13 +106,6 @@
         return;
       }
 
-      if (!userId.startsWith("12")) {
-        document.getElementById("errorMessage").innerText = "You need to create new account and top up 300-400 PHP.";
-        document.getElementById("submitBtn").classList.add("hidden");
-        document.getElementById("createAccountBtn").classList.remove("hidden");
-        return;
-      }
-
       document.getElementById('idSection').classList.add('hidden');
       document.getElementById('predictSection').classList.remove('hidden');
     }
